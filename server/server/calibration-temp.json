@@ -1,0 +1,5 @@
+{
+  "default":       { "neutral":1.0, "happy":1.0, "sad":1.0, "angry":1.0, "fearful":1.0, "disgusted":1.0, "surprised":1.0 },
+  "introvert:none":{ "happy":0.95, "surprised":0.95 },
+  "extrovert:none":{ "sad":0.95,   "angry":0.95   }
+}

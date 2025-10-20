@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.21.0",
+    "@tensorflow/tfjs-backend-wasm": "^3.21.0",
+    "canvas": "^2.11.2",
+    "csv-parse": "^6.1.0",
+    "face-api.js": "^0.22.2"
+  }
+}

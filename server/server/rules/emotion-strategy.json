@@ -1,0 +1,106 @@
+{
+  "happy": {
+    "empathy": {
+      "name": "활기찬 행복 공감 전략",
+      "seed_genres": ["pop", "k-pop", "dance", "edm", "upbeat", "summer"],
+      "male_genres": ["rock", "hip-hop", "funk"],
+      "female_genres": ["ballad", "r-n-b", "indie"]
+    },
+    "relief": {
+      "name": "차분한 행복 해소 전략",
+      "seed_genres": ["acoustic", "soft", "jazz", "soul"],
+      "male_genres": ["soft-rock", "indie-rock"],
+      "female_genres": ["ballad", "acoustic"]
+    }
+  },
+
+  "sad": {
+    "empathy": {
+      "name": "잔잔한 슬픔 공감 전략",
+      "seed_genres": ["acoustic", "piano", "ballad", "slow", "indie"],
+      "male_genres": ["indie-rock", "soft-rock"],
+      "female_genres": ["acoustic", "ballad"]
+    },
+    "relief": {
+      "name": "슬픔 해소 활력 전략",
+      "seed_genres": ["pop", "k-pop", "dance", "edm"],
+      "male_genres": ["rock", "hip-hop"],
+      "female_genres": ["indie", "r-n-b"]
+    }
+  },
+
+  "angry": {
+    "empathy": {
+      "name": "분노 공감 전략",
+      "seed_genres": ["rock", "hard-rock", "metal", "punk", "grunge"],
+      "male_genres": ["hip-hop", "alternative"],
+      "female_genres": ["alternative", "rock"]
+    },
+    "relief": {
+      "name": "분노 진정 전략",
+      "seed_genres": ["acoustic", "piano", "ambient", "jazz"],
+      "male_genres": ["soft-rock", "instrumental"],
+      "female_genres": ["ballad", "acoustic"]
+    }
+  },
+
+  "neutral": {
+    "empathy": {
+      "name": "균형 잡힌 공감 전략",
+      "seed_genres": ["pop", "k-pop", "indie", "soft", "r-n-b"],
+      "male_genres": ["rock", "hip-hop"],
+      "female_genres": ["acoustic", "ballad"]
+    },
+    "relief": {
+      "name": "잔잔한 안정 해소 전략",
+      "seed_genres": ["acoustic", "piano", "chill", "jazz"],
+      "male_genres": ["soft-rock", "instrumental"],
+      "female_genres": ["ballad", "indie"]
+    }
+  },
+
+  "fearful": {
+    "empathy": {
+      "name": "불안 공감 전략",
+      "seed_genres": ["ambient", "acoustic", "piano", "chill", "soft"],
+      "male_genres": ["instrumental", "soft-rock"],
+      "female_genres": ["ballad", "indie"]
+    },
+    "relief": {
+      "name": "안정감 해소 전략",
+      "seed_genres": ["pop", "k-pop", "r-n-b", "lofi"],
+      "male_genres": ["hip-hop", "rock"],
+      "female_genres": ["indie", "dance"]
+    }
+  },
+
+  "surprised": {
+    "empathy": {
+      "name": "즐거운 놀람 공감 전략",
+      "seed_genres": ["dance", "edm", "pop", "party", "electro"],
+      "male_genres": ["hip-hop", "rock"],
+      "female_genres": ["k-pop", "r-n-b"]
+    },
+    "relief": {
+      "name": "놀람 완화 전략",
+      "seed_genres": ["acoustic", "jazz", "soft", "indie"],
+      "male_genres": ["soft-rock", "instrumental"],
+      "female_genres": ["ballad", "acoustic"]
+    }
+  },
+
+  "disgusted": {
+    "empathy": {
+      "name": "혐오 공감 전략",
+      "seed_genres": ["jazz", "soul", "blues", "acoustic"],
+      "male_genres": ["alt-rock", "classic-rock"],
+      "female_genres": ["acoustic", "ballad"]
+    },
+    "relief": {
+      "name": "감정 완화 해소 전략",
+      "seed_genres": ["pop", "k-pop", "r-n-b", "dance"],
+      "male_genres": ["hip-hop", "rock"],
+      "female_genres": ["indie", "soft"]
+    }
+  }
+}

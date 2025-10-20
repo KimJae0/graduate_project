@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Streaming Screen</title>
+  <style>
+    body{margin:0;background:#0b0b0b;color:#fff;font-family:system-ui,Segoe UI,Apple SD Gothic Neo,AppleGothic,Arial}
+    .wrap{min-height:100vh;max-width:960px;margin:0 auto;padding:24px}
+    .stat{opacity:.8;font-size:14px}
+    .card{display:grid;gap:12px}
+    .box{background:#141414;border-radius:12px;padding:16px}
+    .title{font-size:24px;font-weight:700}
+    iframe{border:0;border-radius:12px}
+    .empty{opacity:.8;padding:40px;border:1px dashed #444;border-radius:12px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <h2 style="margin:0">🎬 Streaming Screen</h2>
+      <span class="stat" id="wsStat">connecting...</span>
+    </div>
+
+    <div id="content" class="card">
+      <div class="empty">아직 재생 요청이 없습니다. 사용자 화면에서 “노래 전송”을 눌러보세요.</div>
+    </div>
+  </div>
+
+  <script src="./player.js"></script>
+</body>
+</html>
