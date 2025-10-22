@@ -537,6 +537,7 @@ ${tracks.map((t, i) => `${i + 1}. [${t.category}] ${t.title} - ${t.artist}`).joi
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+          'OpenAI-Project': process.env.OPENAI_PROJECT_ID,
         },
       }
     );
